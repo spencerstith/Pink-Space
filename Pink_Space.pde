@@ -5,7 +5,7 @@ void setup() {
 
 void draw() {
   background(0);
-  noStroke();
+  //noStroke();
   translate(width * 0.5, height * 0.5);
   rotateX(PI/3);
   translate(-w * 0.5, -h * 0.5);
@@ -18,8 +18,6 @@ void draw() {
     }
     endShape();
   }
-  //translate(0, 0, -25);
-  //rect(0, 0, w, h);
   
   // Add stars
   stroke(255);
